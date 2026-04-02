@@ -2,7 +2,7 @@
 
 source=$1
 destination=$2
-logfile="back.log"
+logfile="/mnt/c/DEVOPS-COURSE/Task1/back.log"
 
 if [ -z "$source" ] || [ -z "$destination" ]; then
 	echo "Add source file and destination folder"
